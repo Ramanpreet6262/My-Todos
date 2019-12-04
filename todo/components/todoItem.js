@@ -3,9 +3,9 @@ import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 
 // if we write props in argument, we will access it with props.item
 // Or we can use destructuring and use { item } in argument itself....
-export default function TodoItem({ item }) {
+export default function TodoItem({ item, pressHandler }) {
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={() => pressHandler(item.key)}>
       <Text style={styles.item}>{item.text}</Text>
     </TouchableOpacity>
   );
