@@ -12,7 +12,7 @@ export default function AddTodo({ submitHandler }) {
     <View>
       <TextInput
         style={styles.input}
-        placeholder='new todo ...'
+        placeholder='new todo'
         onChangeText={changeHandler}
         // This is same as onChangeText={(val) => changeHandler(val)}
       />
