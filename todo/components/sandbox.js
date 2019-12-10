@@ -1,4 +1,5 @@
-// This component is made to practise flexbox
+// This component is made to practise flexbox..
+// It is not a part of project
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
