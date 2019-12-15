@@ -1,5 +1,3 @@
-# ToDo-App-React-Native
+# My-Todos
 
-##  A simple todo app in React Native 
-
-using flexbox
+##  A Todo App UI implementation in React Native. 
